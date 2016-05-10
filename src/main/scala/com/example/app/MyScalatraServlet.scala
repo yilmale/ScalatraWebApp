@@ -25,7 +25,7 @@ class MyScalatraServlet extends MyScalatraWebAppStack with FlashMapSupport with 
         <p><input type="submit" value="Upload" /></p>
       </form>
         <p>
-          Upload a file using the  form. After you hit "Upload"
+          Upload a file using the above form. After you hit "Upload"
           the file will be uploaded and your browser will start
           downloading it.
         </p>
