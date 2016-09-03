@@ -10,9 +10,10 @@ class MyScalatraServlet extends MyScalatraWebAppStack with FlashMapSupport with 
   private def displayPage(title:String, content:Seq[Node]) = Template.page(title, content, url(_))
 
   get("/") {
+    println("This is a test")
     <html>
       <body>
-        <h1>Hello, world again!</h1>
+        <h1>HELLO, WORLD AGAIN!</h1>
         Say <a href="hello-scalate">hello to Scalate</a>.
       </body>
     </html>
